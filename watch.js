@@ -1,5 +1,5 @@
 var fs = require('fs');// 引入fs 模块
-var filePath = './';
+var filePath = './allPic';
 const { exec } = require('child_process');
 fs.watch(filePath, function (event, filename) {
       console.log('event is: ' + event);
